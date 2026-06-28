@@ -10,7 +10,7 @@ const translations = {
     heroPrivacy: "Privacy Policy",
     pillInvoices: "Παραστατικά",
     pillCustomers: "Πελάτες",
-    pillVat: "ΓΓΠΣ",
+    pillVat: "Premium Φόρμες",
     pillSync: "iCloud Sync",
     strip1Title: "Παραστατικά",
     strip1Text: "Δημιούργησε παραστατικά και έγγραφα γρήγορα.",
