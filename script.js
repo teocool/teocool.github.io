@@ -13,7 +13,7 @@ const translations = {
     pillVat: "Premium Φόρμες",
     pillSync: "iCloud Sync",
     strip1Title: "Παραστατικά",
-    strip1Text: "Δημιούργησε παραστατικά και έγγραφα γρήγορα.",
+    strip1Text: "Δημιούργησε και εκτύπωσε παραστατικά εύκολα και γρήγορα.",
     strip2Title: "Πελάτες",
     strip2Text: "Οργάνωσε στοιχεία πελατών σε ένα σημείο.",
     strip3Title: "ΓΓΠΣ",
