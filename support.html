@@ -10,44 +10,50 @@
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
-        <span class="app-icon">▣</span>
-        <span><strong>my</strong>Invoice</span>
-      </a>
-      <nav>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
+      <a class="brand" href="index.html"><span class="app-icon">▣</span><span>my<span>Invoice</span></span></a>
+      <nav class="main-nav">
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="terms.html" data-i18n="navTerms">Terms</a>
       </nav>
+      <div class="language-switch"><button type="button" data-lang="el">ΕΛ</button><button type="button" data-lang="en">EN</button></div>
     </div>
   </header>
 
   <main class="container page">
     <p class="eyebrow">Support</p>
-    <h1>myInvoice Support</h1>
-    <p class="lead small">
-      Thank you for using myInvoice. If you need help, have a question,
-      or want to report an issue, please contact us.
+    <h1 data-i18n="supportTitle">Υποστήριξη myInvoice</h1>
+    <p class="page-lead" data-i18n="supportLead">
+      Ευχαριστούμε που χρησιμοποιείς το myInvoice. Για ερωτήσεις, βοήθεια ή αναφορά προβλήματος,
+      μπορείς να επικοινωνήσεις μαζί μας.
     </p>
 
     <section class="info-box">
-      <h2>Contact</h2>
+      <h2 data-i18n="supportContact">Επικοινωνία</h2>
       <p>Email: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></p>
     </section>
 
-    <section class="content-card">
-      <h2>Common topics</h2>
+    <section class="page-section">
+      <h2 data-i18n="supportTopicsTitle">Συχνά θέματα</h2>
       <ul>
-        <li>Creating and managing invoices</li>
-        <li>Managing customers</li>
-        <li>VAT number lookup</li>
-        <li>Data sync</li>
-        <li>Exporting or sharing documents</li>
+        <li data-i18n="supportTopic1">Δημιουργία και διαχείριση παραστατικών</li>
+        <li data-i18n="supportTopic2">Διαχείριση πελατών</li>
+        <li data-i18n="supportTopic3">Αναζήτηση στοιχείων με ΑΦΜ</li>
+        <li data-i18n="supportTopic4">Συγχρονισμός δεδομένων</li>
+        <li data-i18n="supportTopic5">Export ή αποστολή εγγράφων</li>
       </ul>
+    </section>
+
+    <section class="page-section">
+      <h2 data-i18n="supportResponseTitle">Χρόνος απάντησης</h2>
+      <p data-i18n="supportResponseText">Προσπαθούμε να απαντάμε όσο το δυνατόν πιο σύντομα.</p>
     </section>
   </main>
 
-  <footer class="container footer">
-    <p>© 2026 Teocool. All rights reserved.</p>
+  <footer class="footer container">
+    <p>© 2026 YOUR NAME. All rights reserved.</p>
+    <div><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

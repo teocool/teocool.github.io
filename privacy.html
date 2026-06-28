@@ -10,64 +10,69 @@
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
-        <span class="app-icon">▣</span>
-        <span><strong>my</strong>Invoice</span>
-      </a>
-      <nav>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
+      <a class="brand" href="index.html"><span class="app-icon">▣</span><span>my<span>Invoice</span></span></a>
+      <nav class="main-nav">
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="terms.html" data-i18n="navTerms">Terms</a>
       </nav>
+      <div class="language-switch"><button type="button" data-lang="el">ΕΛ</button><button type="button" data-lang="en">EN</button></div>
     </div>
   </header>
 
   <main class="container page">
     <p class="eyebrow">Privacy</p>
-    <h1>Privacy Policy for myInvoice</h1>
-    <p><strong>Last updated:</strong> June 28, 2026</p>
+    <h1 data-i18n="privacyTitle">Πολιτική Απορρήτου</h1>
+    <p><strong data-i18n="lastUpdatedLabel">Τελευταία ενημέρωση:</strong> June 28, 2026</p>
 
-    <section class="content-card">
-      <p>
-        myInvoice is an invoice and customer management app.
-        This Privacy Policy explains how data is handled when you use the app.
-      </p>
+    <p data-i18n="privacyIntro">
+      Το myInvoice είναι εφαρμογή διαχείρισης παραστατικών και πελατών.
+      Η παρούσα Πολιτική Απορρήτου εξηγεί πώς διαχειρίζονται τα δεδομένα όταν χρησιμοποιείς την εφαρμογή.
+    </p>
 
-      <h2>Data Collection</h2>
-      <p>
-        myInvoice stores the information you enter in the app, such as customers,
-        invoices, document details, contact information, and business-related data.
-      </p>
-      <p>
-        This data is stored locally on your device and may be synced through Apple iCloud
-        if iCloud sync is enabled.
-      </p>
-      <p>We do not sell your data.</p>
+    <h2 data-i18n="privacyDataTitle">Συλλογή δεδομένων</h2>
+    <p data-i18n="privacyDataText1">
+      Το myInvoice αποθηκεύει τις πληροφορίες που εισάγεις στην εφαρμογή, όπως πελάτες,
+      παραστατικά, στοιχεία εγγράφων, στοιχεία επικοινωνίας και επαγγελματικά δεδομένα.
+    </p>
+    <p data-i18n="privacyDataText2">
+      Τα δεδομένα αποθηκεύονται τοπικά στη συσκευή σου και μπορούν να συγχρονίζονται μέσω Apple iCloud,
+      αν ο συγχρονισμός iCloud είναι ενεργός.
+    </p>
+    <p data-i18n="privacyNoSell">Δεν πουλάμε τα δεδομένα σου.</p>
 
-      <h2>Third-Party Services</h2>
-      <p>
-        myInvoice may connect to external services such as VAT number lookup services
-        or ERP integrations, only when you choose to use these features.
-      </p>
+    <h2 data-i18n="privacyThirdTitle">Υπηρεσίες τρίτων</h2>
+    <p data-i18n="privacyThirdText">
+      Το myInvoice μπορεί να συνδέεται με εξωτερικές υπηρεσίες, όπως υπηρεσίες αναζήτησης ΑΦΜ
+      ή ERP integrations, μόνο όταν επιλέγεις να χρησιμοποιήσεις αυτές τις λειτουργίες.
+    </p>
 
-      <h2>Data Usage</h2>
-      <ul>
-        <li>Creating and managing invoices</li>
-        <li>Managing customers</li>
-        <li>Searching business details</li>
-        <li>Syncing data across your devices</li>
-        <li>Sending or exporting documents</li>
-      </ul>
+    <h2 data-i18n="privacyUsageTitle">Χρήση δεδομένων</h2>
+    <ul>
+      <li data-i18n="privacyUsage1">Δημιουργία και διαχείριση παραστατικών</li>
+      <li data-i18n="privacyUsage2">Διαχείριση πελατών</li>
+      <li data-i18n="privacyUsage3">Αναζήτηση επιχειρηματικών στοιχείων</li>
+      <li data-i18n="privacyUsage4">Συγχρονισμός δεδομένων στις συσκευές σου</li>
+      <li data-i18n="privacyUsage5">Αποστολή ή εξαγωγή εγγράφων</li>
+    </ul>
 
-      <h2>Contact</h2>
-      <p>
-        If you have questions about this Privacy Policy, contact us at:
-        <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
-      </p>
-    </section>
+    <h2 data-i18n="privacyRetentionTitle">Διατήρηση και διαγραφή</h2>
+    <p data-i18n="privacyRetentionText">
+      Τα δεδομένα παραμένουν στη συσκευή ή στον iCloud λογαριασμό σου όσο τα διατηρείς.
+      Μπορείς να τα διαγράψεις από την εφαρμογή ή αφαιρώντας την εφαρμογή από τις συσκευές σου.
+    </p>
+
+    <h2 data-i18n="privacyContactTitle">Επικοινωνία</h2>
+    <p>
+      <span data-i18n="privacyContactText">Για ερωτήσεις σχετικά με την Πολιτική Απορρήτου, επικοινώνησε στο:</span>
+      <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+    </p>
   </main>
 
-  <footer class="container footer">
-    <p>© 2026 Teocool. All rights reserved.</p>
+  <footer class="footer container">
+    <p>© 2026 YOUR NAME. All rights reserved.</p>
+    <div><a href="index.html">Home</a><a href="support.html">Support</a><a href="terms.html">Terms</a></div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -3,107 +3,181 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>myInvoice - Δημιούργησε παραστατικά εύκολα</title>
-  <meta name="description" content="myInvoice - Δημιουργία παραστατικών, πελατών και επαγγελματικών εγγράφων σε iPhone, iPad και Mac." />
+  <title>myInvoice | Invoice Management</title>
+  <meta name="description" content="myInvoice - Δημιουργία παραστατικών, πελάτες, ΑΦΜ lookup και διαχείριση τιμολόγησης για iPhone, iPad και Mac." />
+  <meta property="og:title" content="myInvoice" />
+  <meta property="og:description" content="Professional invoice management for iPhone, iPad and Mac." />
+  <meta property="og:image" content="hero.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
+      <a class="brand" href="index.html" aria-label="myInvoice home">
         <span class="app-icon">▣</span>
-        <span><strong>my</strong>Invoice</span>
+        <span>my<span>Invoice</span></span>
       </a>
-      <nav>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy Policy</a>
+
+      <nav class="main-nav">
+        <a href="support.html" data-i18n="navSupport">Support</a>
+        <a href="privacy.html" data-i18n="navPrivacy">Privacy</a>
+        <a href="terms.html" data-i18n="navTerms">Terms</a>
       </nav>
+
+      <div class="language-switch" aria-label="Language switch">
+        <button type="button" data-lang="el">ΕΛ</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero container">
       <div class="hero-copy">
-        <p class="eyebrow">Invoice Management</p>
-        <h1>Δημιούργησε παραστατικά <span>εύκολα.</span></h1>
-        <p class="lead">
+        <p class="eyebrow" data-i18n="heroEyebrow">Invoice Management</p>
+        <h1 data-i18n="heroTitle">Δημιούργησε παραστατικά εύκολα.</h1>
+        <p class="lead" data-i18n="heroLead">
           Το myInvoice σε βοηθά να δημιουργείς παραστατικά, να οργανώνεις πελάτες
           και να διαχειρίζεσαι την καθημερινή τιμολόγηση από iPhone, iPad και Mac.
         </p>
 
-        <div class="feature-row">
-          <div class="mini-card">
-            <div class="mini-icon">📄</div>
-            <strong>Παραστατικά</strong>
-          </div>
-          <div class="mini-card">
-            <div class="mini-icon">👥</div>
-            <strong>Πελάτες</strong>
-          </div>
-          <div class="mini-card">
-            <div class="mini-icon">🔎</div>
-            <strong>ΑΦΜ Lookup</strong>
-          </div>
-          <div class="mini-card">
-            <div class="mini-icon">☁️</div>
-            <strong>iCloud Sync</strong>
-          </div>
+        <div class="actions">
+          <a class="button primary" href="support.html" data-i18n="heroSupport">Υποστήριξη</a>
+          <a class="button secondary" href="privacy.html" data-i18n="heroPrivacy">Privacy Policy</a>
         </div>
 
-        <div class="actions">
-          <a class="button primary" href="support.html">Get Support</a>
-          <a class="button secondary" href="privacy.html">Privacy Policy</a>
+        <div class="mini-features">
+          <span data-i18n="pillInvoices">Παραστατικά</span>
+          <span data-i18n="pillCustomers">Πελάτες</span>
+          <span data-i18n="pillVat">ΑΦΜ Lookup</span>
+          <span data-i18n="pillSync">iCloud Sync</span>
         </div>
       </div>
 
-      <div class="hero-visual">
-        <img src="assets/myinvoice-hero.png" alt="myInvoice app preview" />
+      <div class="hero-art">
+        <img src="hero.png" alt="myInvoice app preview" />
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div class="container strip-grid">
+        <article>
+          <div class="line-icon">▤</div>
+          <h3 data-i18n="strip1Title">Create Invoices</h3>
+          <p data-i18n="strip1Text">Δημιούργησε παραστατικά και έγγραφα γρήγορα.</p>
+        </article>
+        <article>
+          <div class="line-icon">◎</div>
+          <h3 data-i18n="strip2Title">Manage Customers</h3>
+          <p data-i18n="strip2Text">Οργάνωσε στοιχεία πελατών σε ένα σημείο.</p>
+        </article>
+        <article>
+          <div class="line-icon">⌕</div>
+          <h3 data-i18n="strip3Title">VAT Number Lookup</h3>
+          <p data-i18n="strip3Text">Αναζήτηση στοιχείων επιχείρησης με ΑΦΜ.</p>
+        </article>
+        <article>
+          <div class="line-icon">☁</div>
+          <h3 data-i18n="strip4Title">iCloud Sync</h3>
+          <p data-i18n="strip4Text">Συγχρονισμός στις Apple συσκευές σου.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section two-col">
+      <div>
+        <p class="eyebrow" data-i18n="whyEyebrow">Why myInvoice</p>
+        <h2 data-i18n="whyTitle">Όλα όσα χρειάζεσαι για την καθημερινή τιμολόγηση.</h2>
+        <p class="section-lead" data-i18n="whyText">
+          Σχεδιασμένο για μικρές επιχειρήσεις, επαγγελματίες και ομάδες που θέλουν
+          απλή και γρήγορη διαχείριση παραστατικών.
+        </p>
+      </div>
+      <div class="check-list">
+        <div><span>✓</span><p data-i18n="check1">Απλό και γρήγορο περιβάλλον</p></div>
+        <div><span>✓</span><p data-i18n="check2">Πελάτες, παραστατικά και είδη οργανωμένα</p></div>
+        <div><span>✓</span><p data-i18n="check3">Υποστήριξη για iPhone, iPad και Mac</p></div>
+        <div><span>✓</span><p data-i18n="check4">Έτοιμο για επεκτάσεις και ERP integrations</p></div>
       </div>
     </section>
 
     <section class="container section">
-      <p class="eyebrow center">Features</p>
-      <h2 class="section-title">Όλα όσα χρειάζεσαι για καθημερινή διαχείριση</h2>
+      <p class="eyebrow center" data-i18n="featuresEyebrow">Features</p>
+      <h2 class="center title-medium" data-i18n="featuresTitle">Χτισμένο για παραγωγική εργασία.</h2>
 
-      <div class="grid">
+      <div class="cards-grid">
         <article class="card">
           <div class="card-icon">📄</div>
-          <h3>Δημιουργία παραστατικών</h3>
-          <p>Οργάνωσε παραγγελίες, τιμολόγια και έγγραφα με καθαρή και γρήγορη ροή εργασίας.</p>
+          <h3 data-i18n="card1Title">Παραστατικά</h3>
+          <p data-i18n="card1Text">Δημιούργησε, αναζήτησε και διαχειρίσου παραστατικά με καθαρή εικόνα.</p>
         </article>
-
         <article class="card">
           <div class="card-icon">👥</div>
-          <h3>Διαχείριση πελατών</h3>
-          <p>Κράτησε στοιχεία πελατών, ΑΦΜ, διευθύνσεις και επαφές συγκεντρωμένα.</p>
+          <h3 data-i18n="card2Title">Πελάτες</h3>
+          <p data-i18n="card2Text">Κράτησε στοιχεία πελατών, ΑΦΜ, διευθύνσεις και επαφές.</p>
         </article>
-
         <article class="card">
           <div class="card-icon">🔎</div>
-          <h3>Αναζήτηση στοιχείων ΑΦΜ</h3>
-          <p>Συμπλήρωσε επαγγελματικά στοιχεία πιο γρήγορα με αναζήτηση στοιχείων επιχείρησης.</p>
+          <h3 data-i18n="card3Title">Αναζήτηση ΑΦΜ</h3>
+          <p data-i18n="card3Text">Συμπλήρωσε πιο γρήγορα στοιχεία επιχείρησης με αναζήτηση ΑΦΜ.</p>
         </article>
-
         <article class="card">
           <div class="card-icon">☁️</div>
-          <h3>Συγχρονισμός συσκευών</h3>
-          <p>Δούλεψε από iPhone, iPad και Mac με μοντέρνα εμπειρία χρήσης.</p>
+          <h3 data-i18n="card4Title">Συγχρονισμός</h3>
+          <p data-i18n="card4Text">Δούλεψε σε διαφορετικές Apple συσκευές με συγχρονισμό δεδομένων.</p>
         </article>
+        <article class="card">
+          <div class="card-icon">📤</div>
+          <h3 data-i18n="card5Title">Export & Share</h3>
+          <p data-i18n="card5Text">Μοιράσου ή εξήγαγε έγγραφα όταν τα χρειάζεσαι.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🔗</div>
+          <h3 data-i18n="card6Title">ERP Ready</h3>
+          <p data-i18n="card6Text">Σχεδιασμένο ώστε να υποστηρίξει μελλοντικές διασυνδέσεις με ERP.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container faq-section">
+      <p class="eyebrow center">FAQ</p>
+      <h2 class="center title-medium" data-i18n="faqTitle">Συχνές ερωτήσεις</h2>
+
+      <div class="faq">
+        <details>
+          <summary data-i18n="faq1Q">Σε ποιες συσκευές λειτουργεί;</summary>
+          <p data-i18n="faq1A">Το myInvoice έχει σχεδιαστεί για iPhone, iPad και Mac.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq2Q">Πού αποθηκεύονται τα δεδομένα;</summary>
+          <p data-i18n="faq2A">Τα δεδομένα αποθηκεύονται στη συσκευή και μπορούν να συγχρονίζονται μέσω iCloud, αν είναι ενεργό.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq3Q">Υπάρχει υποστήριξη;</summary>
+          <p data-i18n="faq3A">Ναι, μπορείς να επικοινωνήσεις μέσω της σελίδας Support.</p>
+        </details>
       </div>
     </section>
 
     <section class="container cta">
-      <h2>Χρειάζεσαι βοήθεια;</h2>
-      <p>Επισκέψου τη σελίδα υποστήριξης ή διάβασε την πολιτική απορρήτου.</p>
-      <div class="actions center-actions">
-        <a class="button primary" href="support.html">Support</a>
-        <a class="button secondary" href="privacy.html">Privacy Policy</a>
+      <div>
+        <p class="eyebrow" data-i18n="ctaEyebrow">Support</p>
+        <h2 data-i18n="ctaTitle">Χρειάζεσαι βοήθεια;</h2>
+        <p data-i18n="ctaText">Επικοινώνησε μαζί μας για ερωτήσεις, υποστήριξη ή αναφορά προβλήματος.</p>
       </div>
+      <a class="button white" href="support.html" data-i18n="ctaButton">Get Support →</a>
     </section>
   </main>
 
-  <footer class="container footer">
-    <p>© 2026 Teocool. All rights reserved.</p>
+  <footer class="footer container">
+    <p>© 2026 YOUR NAME. All rights reserved.</p>
+    <div>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
