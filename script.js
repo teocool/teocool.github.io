@@ -5,7 +5,7 @@ const translations = {
     navTerms: "Terms",
     heroEyebrow: "Invoice Management",
     heroTitle: "Δημιούργησε παραστατικά εύκολα.",
-    heroLead: "Το myInvoice σε βοηθά να δημιουργείς παραστατικά, να οργανώνεις πελάτες και να διαχειρίζεσαι την καθημερινή τιμολόγηση από iPhone, iPad και Mac.",
+    heroLead: "Το myInvoice σε βοηθά να δημιουργείς επαγγλεματικά παραστατικά, να οργανώνεις πελάτες και είδη από iPhone, iPad και Mac.",
     heroSupport: "Υποστήριξη",
     heroPrivacy: "Privacy Policy",
     pillInvoices: "Παραστατικά",
