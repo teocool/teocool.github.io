@@ -13,12 +13,7 @@ Upload all files to the root of your GitHub Pages repository.
 - hero.png
 - README.md
 
-## Before publishing
 
-Replace in all HTML files:
-
-- `YOUR NAME`
-- `YOUR-EMAIL@example.com`
 
 ## URLs for App Store Connect
 
