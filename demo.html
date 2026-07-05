@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>myInvoice Demo</title>
-  <meta name="description" content="Demo video for myInvoice." />
+  <meta name="description" content="Demo videos for myInvoice." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -33,13 +33,18 @@
   <main class="container page">
     <p class="eyebrow">Demo</p>
 
-    <h1>myInvoice Demo</h1>
+    <h1 data-i18n="demoTitle">myInvoice Demo</h1>
 
-    <p class="page-lead">
-      Watch a short demo video showing the main workflow of myInvoice.
+    <p class="page-lead" data-i18n="demoLead">
+      Δείτε σύντομα βίντεο που παρουσιάζουν τις βασικές λειτουργίες του myInvoice.
     </p>
 
     <section class="info-box">
+      <h2 data-i18n="demoMainVideoTitle">Βασική παρουσίαση</h2>
+      <p data-i18n="demoMainVideoText">
+        Δείτε τη βασική ροή εργασίας: πελάτες, είδη, παραστατικά, υπογραφή, PDF και συγχρονισμό.
+      </p>
+
       <video controls autoplay muted playsinline style="width:100%;border-radius:18px;">
         <source src="MyInvoice_Demo.mp4" type="video/mp4">
         <source src="MyInvoice_Demo.MOV" type="video/quicktime">
@@ -47,16 +52,30 @@
       </video>
     </section>
 
+    <section class="info-box">
+      <h2 data-i18n="demoSoftOneTitle">Σύνδεση με SOFTONE</h2>
+      <p data-i18n="demoSoftOneText">
+        Οδηγός βήμα προς βήμα για τη σύνδεση του myInvoice με SOFTONE.
+      </p>
+
+      <video controls muted playsinline style="width:100%;border-radius:18px;">
+        <source src="MyInvoice_SoftOne_Tutorial.mp4" type="video/mp4">
+        <source src="MyInvoice_SoftOne_Tutorial.MOV" type="video/quicktime">
+        Your browser does not support HTML5 video.
+      </video>
+    </section>
+
     <section class="page-section">
-      <h2>What the demo shows</h2>
+      <h2 data-i18n="demoShowsTitle">Τι δείχνει το demo</h2>
       <ul>
-        <li>Document creation</li>
-        <li>Customer management</li>
-        <li>Item catalog with images</li>
-        <li>Digital signatures</li>
-        <li>Professional PDF generation</li>
-        <li>Printing and email sharing</li>
-        <li>iCloud sync across iPhone, iPad and Mac</li>
+        <li data-i18n="demoFeature1">Δημιουργία παραστατικών</li>
+        <li data-i18n="demoFeature2">Διαχείριση πελατών</li>
+        <li data-i18n="demoFeature3">Κατάλογος ειδών με εικόνες</li>
+        <li data-i18n="demoFeature4">Ψηφιακές υπογραφές</li>
+        <li data-i18n="demoFeature5">Επαγγελματικά PDF</li>
+        <li data-i18n="demoFeature6">Εκτύπωση και αποστολή email</li>
+        <li data-i18n="demoFeature7">Συγχρονισμός iCloud σε iPhone, iPad και Mac</li>
+        <li data-i18n="demoFeature8">Σύνδεση με SOFTONE</li>
       </ul>
     </section>
   </main>
