@@ -94,7 +94,23 @@ const translations = {
     termsLiabilityTitle: "Περιορισμός ευθύνης",
     termsLiabilityText: "Το myInvoice παρέχεται “ως έχει”. Δεν φέρουμε ευθύνη για απώλειες ή ζημιές που μπορεί να προκύψουν από τη χρήση ή την αδυναμία χρήσης της εφαρμογής.",
     termsContactTitle: "Επικοινωνία",
-    termsContactText: "Για ερωτήσεις σχετικά με τους Όρους Χρήσης, επικοινώνησε στο:"
+    termsContactText: "Για ερωτήσεις σχετικά με τους Όρους Χρήσης, επικοινώνησε στο:",
+
+    demoTitle: "myInvoice Demo",
+    demoLead: "Δείτε σύντομα βίντεο που παρουσιάζουν τις βασικές λειτουργίες του myInvoice.",
+    demoMainVideoTitle: "Βασική παρουσίαση",
+    demoMainVideoText: "Παρουσίαση της εφαρμογής, των πελατών, των ειδών, των παραστατικών, των PDF, των ψηφιακών υπογραφών και του συγχρονισμού μέσω iCloud.",
+    demoSoftOneTitle: "Σύνδεση με SOFTONE ERP",
+    demoSoftOneText: "Οδηγός βήμα προς βήμα για τη σύνδεση του myInvoice με το SOFTONE ERP.",
+    demoShowsTitle: "Το demo περιλαμβάνει",
+    demoFeature1: "Δημιουργία παραστατικών",
+    demoFeature2: "Διαχείριση πελατών",
+    demoFeature3: "Διαχείριση ειδών με εικόνες",
+    demoFeature4: "Ψηφιακές υπογραφές",
+    demoFeature5: "Επαγγελματικά PDF",
+    demoFeature6: "Εκτύπωση και αποστολή email",
+    demoFeature7: "Συγχρονισμός μέσω iCloud σε iPhone, iPad και Mac",
+    demoFeature8: "Σύνδεση με SOFTONE ERP"
   },
 
   en: {
@@ -192,7 +208,23 @@ const translations = {
     termsLiabilityTitle: "Limitation of Liability",
     termsLiabilityText: "myInvoice is provided “as is”. We are not responsible for losses or damages that may result from using or being unable to use the app.",
     termsContactTitle: "Contact",
-    termsContactText: "If you have questions about these Terms of Use, contact us at:"
+    termsContactText: "If you have questions about these Terms of Use, contact us at:",
+    
+    demoTitle: "myInvoice Demo",
+    demoLead: "Watch short videos showcasing the main features of myInvoice.",
+    demoMainVideoTitle: "Main Demo",
+    demoMainVideoText: "See the complete workflow including customers, items, documents, PDF generation, digital signatures and iCloud sync.",
+    demoSoftOneTitle: "SOFTONE ERP Connection",
+    demoSoftOneText: "Step-by-step guide to connect myInvoice with SOFTONE ERP.",
+    demoShowsTitle: "Demo includes",
+    demoFeature1: "Document creation",
+    demoFeature2: "Customer management",
+    demoFeature3: "Item catalog with images",
+    demoFeature4: "Digital signatures",
+    demoFeature5: "Professional PDF generation",
+    demoFeature6: "Printing and email sharing",
+    demoFeature7: "iCloud sync across iPhone, iPad and Mac",
+    demoFeature8: "SOFTONE ERP integration"
   }
 };
 
