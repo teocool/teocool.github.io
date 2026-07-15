@@ -198,11 +198,17 @@ h1 {
   color: var(--blue);
   background: white;
 }
+.appstore-link {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
 .appstore-badge {
   width: 180px;
   height: auto;
   display: block;
-  cursor: pointer;
 }
 .mini-features {
   display: flex;
