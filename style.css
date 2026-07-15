@@ -198,7 +198,11 @@ h1 {
   color: var(--blue);
   background: white;
 }
-
+.appstore-badge {
+  width: 180px;
+  height: auto;
+  display: block;
+}
 .mini-features {
   display: flex;
   flex-wrap: wrap;
